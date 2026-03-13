@@ -345,10 +345,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal-service.qti
 
-# TimeKeep
-PRODUCT_PACKAGES += \
-    TimeKeep
-
 # UFFD GC
 PRODUCT_ENABLE_UFFD_GC := true
 
