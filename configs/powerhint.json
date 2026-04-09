@@ -47,6 +47,8 @@
       "Path": "/dev/cpuset/top-app/uclamp.min",
       "Values": [
         "10",
+        "40",
+        "60",
         "78",
         "100"
       ],
@@ -248,8 +250,8 @@
     {
       "PowerHint": "INTERACTION",
       "Node": "UclampTAMin",
-      "Duration": 0,
-      "Value": "78"
+      "Duration": 200,
+      "Value": "60"
     },
     {
       "PowerHint": "INTERACTION",
@@ -308,13 +310,13 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "UclampTAMin",
-      "Duration": 3000,
+      "Duration": 3500,
       "Value": "100"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "UclampFgMin",
-      "Duration": 3000,
+      "Duration": 3500,
       "Value": "100"
     },
     {
