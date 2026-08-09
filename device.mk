@@ -165,7 +165,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml
 
 # Miuicamera
-$(call inherit-product-if-exists, vendor/xiaomi/miuicamera-miatoll/MiuiCamera.mk)
+$(call inherit-product-if-exists, device/xiaomi/miuicamera-miatoll/device.mk)
 
 # NFC
 PRODUCT_PACKAGES += \

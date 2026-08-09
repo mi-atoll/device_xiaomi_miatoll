@@ -91,7 +91,7 @@ BOARD_KERNEL_CMDLINE += service_locator.enable=1
 TARGET_USES_ION := true
 
 # Miuicamera
--include vendor/xiaomi/miuicamera-miatoll/BoardConfigMiuiCamera.mk
+-include device/xiaomi/miuicamera-miatoll/BoardConfig.mk
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse,miatoll
